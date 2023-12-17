@@ -5,14 +5,14 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App bg-[#0F172A] h-screen w-[100vw]">
-     <div className='w-[1300px] mx-auto'>
+    <div className="App bg-[#0F172A] mx-auto h-screen w-[100vw]">
+    
      <Header/>
        {/* <HeroSection/> */}
 
      </div>
      
-    </div>
+  
   );
 }
 
