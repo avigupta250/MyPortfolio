@@ -44,7 +44,7 @@ const Header = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center  px-4  h-[80px] bg-gradient-to-t from-[#060b17]  ">
+    <div className="flex  justify-between items-center  px-4  h-[80px] bg-gradient-to-t from-[#060b17]  ">
       {/* Logo */}
       <div>
         <h1 className="text-white text-xl  md:text-4xl   ">Avi Gupta</h1>
@@ -87,7 +87,7 @@ const Header = () => {
       {nav && (
        
           <ul
-            className=" flex flex-col justify-center w-full h-screen absolute top-0 items-center
+            className=" scroll- flex flex-col justify-center w-full h-screen absolute top-0 items-center
              right-0  bg-gradient-to-b from-black to-gray-600"
           >
             {links.map(({ id, link, icon }) => (
