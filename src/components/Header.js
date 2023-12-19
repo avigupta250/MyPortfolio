@@ -14,7 +14,7 @@ const Header = () => {
     },
     {
       id: 2,
-      link: "About",
+      link: "My Skills",
       icon: <FaHome />,
     },
     {
@@ -33,30 +33,33 @@ const Header = () => {
     {
       id: 1,
       icon: <FaGithub />,
+      link:"https://github.com/avigupta250"
     },
     {
       id: 2,
       icon: <FaLinkedinIn />,
+      link:"https://www.linkedin.com/in/avinash-gupta-982355213/"
     },
     {
       id: 3,
       icon: <FaXTwitter />,
+      link:"https://twitter.com/Avinash87812308"
     },
   ];
   return (
-    <div className="flex  justify-between items-center  px-4  h-[80px] bg-gradient-to-t from-[#060b17]  ">
+    <div className="flex   top-0 bg-[#0F172A] justify-between items-center md:px-[200px]  px-4  h-[80px]   ">
       {/* Logo */}
       <div>
-        <h1 className="text-white text-xl  md:text-4xl   ">Avi Gupta</h1>
+        <h1 className="text-white text-[25px] md:text-[40px] font-quickstand font-quickstandCustom  "><span className="text-[#4ade80]">A</span>vi <span className="text-[#4ade80]">G</span>upta</h1>
       </div>
 
       {/*  */}
-      <div className="hidden md:flex ">
-        <ul className="flex px-3">
+      <div className="hidden gap-6 md:flex ">
+        <ul className="flex  gap-5 px-3">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="hover:text-blue-600 hover:scale-110 duration-200 px-4  text-gray-400 cursor-pointer"
+              className="hover:text-[#4ade80]  font-quickstand hover:scale-110 duration-200 px-4 text-[16px]    text-gray-400 cursor-pointer"
             >
               {link}
             </li>
@@ -64,31 +67,32 @@ const Header = () => {
         </ul>
 
         {/* seprator */}
-        <div className="h-[20px] w-[3px] mt-1 bg-gray-400"></div>
+        <div className="h-[23px] w-[3px] mt-[2px]  flex items-center bg-gray-400"></div>
 
         {/* social media  */}
-        <div className="h-[6px] text-white flex gap-3 mt-1  ">
-          {socialMedia.map(({ id, icon }) => (
-            <div className="hover:text-blue-600 duration-200  hover:scale-150">
+        <div className="h-[6px] text-white flex gap-5  items-center mt-2 ml-2 ">
+          {socialMedia.map(({ id, icon,link }) => (
+          <a href={link} key={id} target="_blank" ><div className="hover:text-[#4ade80] duration-200 text-[20px]   hover:scale-150">
               {" "}
               {icon}
             </div>
+            </a>
           ))}
         </div>
       </div>
 
       <div
         onClick={() => setNav(!nav)}
-        className="text-white  cursor-pointer pr-4 z-10 md:hidden"
+        className="text-[#4ade80]  cursor-pointer pr-1 z-20 md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes  size={25} /> : <FaBars size={25} />}
       </div>
 
       {nav && (
        
           <ul
-            className=" scroll- flex flex-col justify-center w-full h-screen absolute top-0 items-center
-             right-0  bg-gradient-to-b from-black to-gray-600"
+            className=" -r-[400px]   flex flex-col justify-center w-full h-screen fixed top-0 items-center
+             right-0 z-10 bg-[#0E1630] "
           >
             {links.map(({ id, link, icon }) => (
               <li
@@ -99,18 +103,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-        //   {/* <ul  className="h-[6px] text-white flex gap-3 mt-1">
-        //   <li>
-        //     {
-        //         socialMedia.map(({id,icon})=>(
-        //             <div key={id} className="hover:text-blue-600 duration-200  hover:scale-150">
-        //             {" "}
-        //             {icon}
-        //           </div>
-        //         ))
-        //     }
-        //     </li>
-        //   </ul> */}
+       
         
       )}
     </div>

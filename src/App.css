@@ -30,3 +30,7 @@
     background-origin: border-box;
     background-clip: padding-box, border-box;
   }
+
+  /* .transition-transform {
+    @apply transition-transform ease-in-out duration-300;
+  } */
