@@ -7,7 +7,7 @@ const SkillSection = () => {
         <div className="text-[#4ade80] md:text-[30px]  flex  items-center gap-3">  <div className="h-[1px] w-7 bg-[#4ade80]"></div>My Skills</div>
         <div className='w-full h-1 bg-blue-600'></div>
         <div className='mt-8 gap-5 grid grid-cols-1  md:grid-cols-4'>
-            <div className='w-full p-3 hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
+            <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Frontend</div>
                 <div className='flex mt-2 text-[#e2e5eb]  flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#409cb3]'>HTML</div>
@@ -18,7 +18,7 @@ const SkillSection = () => {
                 </div>
 
             </div>
-            <div className='w-full p-3  hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
+            <div className='w-full p-3  md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Backend</div>
                 <div className='flex mt-2 flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Express Js</div>
@@ -27,7 +27,7 @@ const SkillSection = () => {
                 </div>
 
             </div>
-            <div className='w-full p-3 hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
+            <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>DataBase</div>
                 <div className='flex mt-2 flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Mongo DB</div>
@@ -35,7 +35,7 @@ const SkillSection = () => {
                 </div>
 
             </div>
-            <div className='w-full p-3 hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
+            <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Tools</div>
                 <div className='flex mt-2 flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Git</div>

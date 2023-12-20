@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { FaBars, FaGithub, FaHome, FaTimes } from "react-icons/fa";
+import { FaBars, FaHome, FaTimes } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
+import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { MdConnectWithoutContact } from "react-icons/md";
+
 
 
 import { socialMedia } from "./Constant";
@@ -16,23 +20,23 @@ const Header = () => {
     {
       id: 2,
       link: "My Skills",
-      icon: <FaHome />,
+      icon: <GiSkills />,
     },
     {
       id: 3,
       link: "Project",
-      icon: <FaHome />,
+      icon: <LiaProjectDiagramSolid />,
     },
     {
       id: 4,
       link: "Contact",
-      icon: <FaHome />,
+      icon: <MdConnectWithoutContact />,
     },
   ];
 
   
   return (
-    <div className="flex top-0 bg-[#0F172A] justify-between items-center md:px-[200px] px-4 h-[80px] fixed w-full z-50">
+    <div className="flex top-0 bg-[#0E1630] justify-between items-center md:px-[200px] px-4 h-[80px] fixed w-full z-50">
       {/* Logo */}
       <div>
         <h1 className="text-white text-[25px] md:text-[40px] font-quickstand font-quickstandCustom">
@@ -79,14 +83,14 @@ const Header = () => {
   
       {nav && (
         <ul
-          className="flex flex-col justify-center w-full h-screen fixed top-0 items-center right-0 z-10 bg-[#0E1630] "
+          className="flex flex-col justify-center w-full h-screen fixed top-0 items-start z-10 bg-[#0E1630] "
         >
           {links.map(({ id, link, icon }) => (
             <li
               key={id}
-              className="flex items-center gap-4 py-8 text-gray-400 cursor-pointer"
+              className="flex items-center gap-4 py-8 ml-[90px] text-gray-400 cursor-pointer"
             >
-              {icon} {link}
+              <div className="text-green-400">{icon}</div> {link}
             </li>
           ))}
         </ul>

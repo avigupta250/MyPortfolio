@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { BsGlobeCentralSouthAsia } from "react-icons/bs";
+import { IoSchool } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 
 import { socialMedia } from "./Constant";
@@ -39,15 +39,15 @@ const Footer = () => {
             <FaMapMarkerAlt />
           </div>
           <h1>Nalanda College Of Engineering ,Chandi (Nalanda)</h1>
-          <div className="text-green-500">
-            <BsGlobeCentralSouthAsia />
+          <div className="text-green-500 text-[25px]">
+            <IoSchool />
           </div>
         </div>
         <div className="flex gap-4 items-center mt-6 ">
           <div className="text-green-600 text-[26px]">
             <IoIosMail />
           </div>
-         <div className="flex flex-wrap text-[#4ade80]" >
+         <div className="flex flex-wrap text md:hover:text-green-500 duration-200" >
          <a href="mailto:avinashkumarnav52@gmail.com" >avinashkumarnav52@gmail.com</a>
          </div>
         </div>

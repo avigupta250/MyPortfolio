@@ -1,5 +1,6 @@
 import React from "react";
 import ShrifBchcha2 from "../assets/ShrifBchcha2.jpg";
+import Resume from "../assets/Resume.pdf"
 
 const HeroSection = () => {
   return (
@@ -35,9 +36,10 @@ const HeroSection = () => {
         </div>
 
         <div className="flex justify-center mt-[30px] md:justify-start ">
-          <button className="btn btn-gradient-border btn-glow flex justify-center items-center ">
+          <a href={Resume} target="_blank" download="AviResume.pdf"><button className="btn btn-gradient-border btn-glow flex justify-center items-center ">
             Resume
           </button>
+          </a>
         </div>
       </div>
     </div>

@@ -2,9 +2,6 @@ import React from "react";
 import foodDelivery from "../assets/FoodDelivery.jpeg";
 
 import { FaChevronRight } from "react-icons/fa6";
-import { TbGoGame } from "react-icons/tb";
-import { GiCat } from "react-icons/gi";
-
 import { projects } from "./Constant";
 import { moreProjects } from "./Constant";
 
@@ -46,7 +43,7 @@ const ProjectsSection = () => {
           <div className="mt-3 flex flex-col  gap-4">
             {moreProjects.map((project) => (
               <a href={project?.link} target="_blank">
-                <div className="flex p-3 gap-4 justify-between items-center hover:scale-105 duration-300 opacity-80 bg-blur-lg  ">
+                <div className="flex p-3 gap-4 justify-between items-center md:hover:scale-105 duration-300 opacity-80 bg-blur-lg  ">
                   <div className="flex items-center gap-4">
                     <div className=" scale-150 text-[#4ade80] ">
                       {project.icon}
@@ -56,7 +53,7 @@ const ProjectsSection = () => {
                       <h1 className="text-[10px]">{project.stack}</h1>
                     </div>
                   </div>
-                  <button className="flex justify-end hover:text-[#4ade80] ">
+                  <button className="flex justify-end md:hover:text-[#4ade80] ">
                     <FaChevronRight size={20} />
                   </button>
                 </div>
