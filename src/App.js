@@ -7,7 +7,7 @@ import SkillSection from "./components/SkillSection";
 
 function App() {
   return (
-    <div className="App  bg-[#0E1630] mx-auto  w-[100vw] ">
+    <div className="App overflow-x-hidden  bg-[#0E1630] mx-auto  w-[100vw] ">
      <div className="">
      <Header />
      </div>

@@ -1,36 +1,13 @@
 import React from "react";
-import { FaBars, FaGithub, FaHome, FaTimes } from "react-icons/fa";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsGlobeCentralSouthAsia } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";
 
-const Footer = () => {
-  const socialMedia = [
-    {
-      id: 1,
-      icon: <FaGithub />,
-      link:"https://github.com/avigupta250"
-    },
-    {
-      id: 2,
-      icon: <FaLinkedinIn />,
-      link:"https://www.linkedin.com/in/avinash-gupta-982355213/"
-    },
-    {
-      id: 3,
-      icon: <FaXTwitter />,
-      link:"https://twitter.com/Avinash87812308"
-    },
-    {
-      id: 4,
-      icon: <FaInstagram />,
-      link:"https://www.instagram.com/avi_gupta250/"
-    },
+import { socialMedia } from "./Constant";
 
-  ];
+const Footer = () => {
+  
 
   const [formData, setFormData] = useState({
     fullName: "",

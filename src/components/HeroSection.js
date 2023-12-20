@@ -3,7 +3,7 @@ import ShrifBchcha2 from "../assets/ShrifBchcha2.jpg";
 
 const HeroSection = () => {
   return (
-    <div className=" flex m-3  flex-col  items-center  justify-center mt-[70px] md:flex-row-reverse md:px-[200px]  md:justify-between   ">
+    <div className=" flex m-3  flex-col  items-center  justify-center mt-[170px] md:flex-row-reverse md:px-[200px]  md:justify-between   ">
       {/* Pic */}
       <div className="flex relative justify-end -z-1 ">
         <div className="bg-green-500  flex relative items-center  justify-center h-[210px] w-[210px]   md:h-[410px] md:w-[410px] rounded-full"> </div>
