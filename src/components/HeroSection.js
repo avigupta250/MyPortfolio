@@ -6,10 +6,10 @@ const HeroSection = () => {
     <div className=" flex m-3  flex-col  items-center  justify-center mt-[170px] md:flex-row-reverse md:px-[200px]  md:justify-between   ">
       {/* Pic */}
       <div className="flex relative justify-end -z-1 ">
-        <div className="bg-green-500  flex relative items-center  justify-center h-[210px] w-[210px]   md:h-[410px] md:w-[410px] rounded-full"> </div>
+        <div className="bg-green-500  flex relative items-center  justify-center h-[210px] w-[210px] blur  md:h-[410px] md:w-[410px] rounded-full"> </div>
           <div className="absolute  mr-[5px] mt-[5px] ">
             <img
-              className="h-[200px] w-[200px]  md:h-[400px] md:w-[400px]   rounded-full"
+              className="h-[200px] w-[200px]  md:h-[400px] md:w-[400px] border-[5px] border-green-500  rounded-full"
               src={ShrifBchcha2}
               alt="pic"
             />
