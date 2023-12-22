@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
+import { AiOutlineCopyright } from "react-icons/ai";
 
 import { socialMedia } from "./Constant";
 
@@ -31,7 +32,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="mt-[40px] md:mt-[60px] pb-[100px] p-4  grid grid-cols-1 md:grid-cols-2   md:px-[200px] text-white  ">
+    <>
+    <div className="mt-[40px] md:mt-[60px] pb-[0px] p-4  grid grid-cols-1 md:grid-cols-2   md:px-[200px] text-white  ">
       <div className="mb-10 flex flex-col ">
         <h1 className="text-[#4ade80] md:text-[25px]  flex  items-center gap-3"> Connect With Me</h1>
         <div className="flex gap-4 items-center mt-6 ">
@@ -112,9 +114,16 @@ const Footer = () => {
           <button className="w-full bg-[#3B82F8] p-3 rounded-md" type="submit">
             Submit
           </button>
+
+         
         </form>
       </div>
+      
     </div>
+    <div className="flex mt-[100px] text-md justify-center pb-[20px]  items-center gap-2 text-[#8390b9de] ">
+            <AiOutlineCopyright/><h1>Copyright 2023 - Developed by Avi Gupta .All right reserved.</h1>
+          </div>
+    </>
   );
 };
 

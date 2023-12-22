@@ -42,6 +42,7 @@ const SkillSection = () => {
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#8940b3]'>GitHub</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#886060]'>VS Code</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#40b34d]'>Docker</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#bd141478]'>Postman</div>
                 
                 </div>
 

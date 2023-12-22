@@ -16,10 +16,10 @@ const ProjectsSection = () => {
       <div className=" md:flex gap-4 md:justify-between md:items-center">
         <div className="mt-8 gap-3 grid grid-cols-1 md:grid-cols-3 md:overflow-x-hidden">
           {projects.map((project) => (
-            <div className="w-full rounded-md border-3 border-[#111213] bg-[#ffffff]">
+            <div className="w-full rounded-md border-3 text-white border border-[#526980] bg-[#14213f  ]">
               <div>
                 <img
-                  className="h-[200px] w-full object-cover rounded-md"
+                  className="h-[200px] w-full object-cover "
                   src={foodDelivery}
                   alt="Food Delivery"
                 />
