@@ -3,40 +3,59 @@ import { FaBars, FaHome, FaTimes } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { MdConnectWithoutContact } from "react-icons/md";
+import { useRef } from "react";
 
 
 
 import { socialMedia } from "./Constant";
+import userEvent from "@testing-library/user-event";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
 
+  // const mySkills=useRef(null)
+  // const myProject=useRef(null)
+  // const mySkills=useRef(null)
+const scrollToSection = (elementRef) => {
+  if (elementRef.current) {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+};
   const links = [
     {
       id: 1,
       link: "Home",
+      ref:"mySkills",
       icon: <FaHome />,
     },
     {
       id: 2,
       link: "My Skills",
+      ref:"mySkills",
       icon: <GiSkills />,
     },
     {
       id: 3,
       link: "Project",
+      ref:"mySkills",
       icon: <LiaProjectDiagramSolid />,
     },
     {
       id: 4,
       link: "Contact",
+      ref:"mySkills",
       icon: <MdConnectWithoutContact />,
     },
   ];
 
+
+
   
   return (
-    <div className="flex top-0 bg-[#0E1630] justify-between items-center md:px-[200px] px-4 h-[80px] fixed w-full z-50">
+    <div className=" flex top-0 bg-[#0E1630] justify-between items-center md:px-[200px] px-4 h-[80px] fixed w-full z-50">
       {/* Logo */}
       <div>
         <h1 className="text-white text-[25px] md:text-[40px] font-quickstand font-quickstandCustom">
@@ -48,9 +67,10 @@ const Header = () => {
       {/*  */}
       <div className="hidden gap-6 md:flex">
         <ul className="flex gap-5 px-3">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link,ref }) => (
             <li
               key={id}
+              onClick={()=>scrollToSection(ref)}
               className="hover:text-[#4ade80] font-quickstand hover:scale-110 duration-200 px-4 text-[16px] text-gray-400 cursor-pointer"
             >
               {link}

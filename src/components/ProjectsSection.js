@@ -7,7 +7,7 @@ import { moreProjects } from "./Constant";
 
 const ProjectsSection = () => {
   return (
-    <div className="p-4 mt-9 md:px-[200px]  ">
+    <div className="myProject p-4 mt-9 md:px-[200px]  ">
       <div className="text-[#4ade80] md:text-[30px]  flex  items-center gap-3">
         {" "}
         <div className="h-[1px] w-7 bg-[#4ade80]"></div>Projects

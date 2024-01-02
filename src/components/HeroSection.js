@@ -31,7 +31,7 @@ const HeroSection = () => {
         <div className="flex flex-col py-3  text-[#808DAD] ">
           <h1 className="text-center md:text-start">Full Stack Developer</h1>
           <p className="py-5  text-center md:text-start">
-            Hi there! My name is Avinash Gupta and I’m a software engineer .
+            Hi there! My name is Avinash Gupta and I'm a dedicated MERN stack developer actively seeking new opportunities to contribute expertise in MongoDB, Express.js, React, and Node.js. Eager to apply skills and passion for creating impactful web solutions in a dynamic work environment.
           </p>
         </div>
 
