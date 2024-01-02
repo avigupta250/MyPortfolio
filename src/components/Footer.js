@@ -69,9 +69,13 @@ const Footer = () => {
 
       <div>
         <h2 className="text-[#4ade80] md:text-[25px]  flex  items-center gap-3">Contact Me</h2>
-        <form onSubmit={handleSubmit} className="w-full mt-5 flex  flex-col gap-6">
+        <form
+        //  onSubmit={handleSubmit}
+         action="https://formspree.io/f/xzbnbgad"
+         method="POST"
+        className="w-full mt-5 flex  flex-col gap-6">
           <div className="">
-            <label htmlFor="fullName"></label>
+            <label htmlFor="full Name"></label>
             <input
               className="bg-[#1c2950de] rounded-md w-full p-3"
               type="text"
