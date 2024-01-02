@@ -33,24 +33,27 @@ export const socialMedia = [
     {
       id: 1,
       image: foodDelivery,
+      state:"Under Maintainance",
       title: "HeistINN-Heist Food Online",
       description:
         "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
     },
-    {
-      id: 1,
-      image: foodDelivery,
-      title: "HeistINN-Heist Food Online",
-      description:
-        "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
-    },
-    {
-      id: 1,
-      image: foodDelivery,
-      title: "HeistINN-Heist Food Online",
-      description:
-        "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
-    },
+    
+      
+    // {
+    //   id: 1,
+    //   image: foodDelivery,
+    //   title: "HeistINN-Heist Food Online",
+    //   description:
+    //     "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
+    // },
+    // {
+    //   id: 1,
+    //   image: foodDelivery,
+    //   title: "HeistINN-Heist Food Online",
+    //   description:
+    //     "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
+    // },
   
   ];
 
