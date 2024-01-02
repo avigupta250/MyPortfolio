@@ -17,13 +17,13 @@ const ProjectsSection = () => {
         <div className="mt-8 gap-3 grid grid-cols-1 md:grid-cols-3 md:overflow-x-hidden">
           {projects.map((project) => (
             <div className="w-full rounded-md border-3 text-white border border-[#526980] bg-[#14213f  ]">
-              <div className="relative">
+              <div className="relative justify-end">
                 <img
                   className="h-[200px] rounded-md  w-full object-cover "
                   src={foodDelivery}
                   alt="Food Delivery"
                 />
-                <div className="absolute text-black top-0 font-bold ml-1"> {project.state}</div>
+                <div className="absolute text-black top-0 font-bold  text-[8px] ml-2 flex md:text-[15px]"> {project.state}</div>
               </div>
               <div className="p-2 flex flex-wrap">
                 <div className="font-bold font-sans">{project.title}</div>

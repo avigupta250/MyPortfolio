@@ -1,5 +1,5 @@
 import React from "react";
-import ShrifBchcha2 from "../assets/ShrifBchcha2.jpg";
+import ShrifBchcha2 from "../assets/Aviii.jpg";
 import Resume from "../assets/Resume.pdf"
 
 const HeroSection = () => {
@@ -8,9 +8,9 @@ const HeroSection = () => {
       {/* Pic */}
       <div className="flex relative justify-end -z-1 ">
         <div className="bg-green-500  flex relative items-center  justify-center h-[210px] w-[210px] blur  md:h-[410px] md:w-[410px] rounded-full"> </div>
-          <div className="absolute  mr-[5px] mt-[5px] ">
+          <div className="absolute  mr-[5px] mt-[4px] ">
             <img
-              className="h-[200px] w-[200px]  md:h-[400px] md:w-[400px]    rounded-full"
+              className="h-[200px] w-[200px]   md:h-[400px] md:w-[400px]    rounded-full"
               src={ShrifBchcha2}
               alt="pic"
             />
