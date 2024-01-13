@@ -1,6 +1,6 @@
 import React from "react";
 import ShrifBchcha2 from "../assets/Aviiii.jpg";
-import Resume from "../assets/Resume.pdf"
+import Resume from "../assets/Avi_Resume.pdf"
 
 const HeroSection = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection = () => {
         <div className=" flex gap-1 py-2  md:flex-col justify-start mx-auto   md:ml-0">
           <div className="flex items-center md:justify-start justify-center gap-2">
             <div className="h-[1px] w-7 bg-[#4ade80]"></div>
-            <div className="text-[#4ade80] md:text-[30px]  ">Hello !</div>
+            <div className="text-[#4ade80] md:text-[30px]  ">Hello!</div>
           </div>
           <div className=" font-quickstand md:text-[40px]">
             I'm Avinash Gupta
