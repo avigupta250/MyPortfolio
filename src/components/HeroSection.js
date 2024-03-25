@@ -1,6 +1,6 @@
 import React from "react";
 import ShrifBchcha2 from "../assets/Aviiii.jpg";
-import Resume from "../assets/Avi_Resume.pdf"
+import Resume from "../assets/Resume.pdf"
 
 const HeroSection = () => {
   return (
