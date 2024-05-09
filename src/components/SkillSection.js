@@ -10,6 +10,17 @@ const SkillSection = () => {
         <div className='w-full h-1 bg-blue-600'></div>
         <div className='mt-8 gap-5 grid grid-cols-1  md:grid-cols-4'>
             <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
+                <div>Languages</div>
+                <div className='flex mt-2 text-[#e2e5eb]  flex-wrap gap-2'>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#409cb3]'>C</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-blue-700'>C++</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#5ed76491]'></div> */}
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#b73d3d]'>Javascript</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#a9b340]'></div> */}
+                </div>
+
+            </div>
+            <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Frontend</div>
                 <div className='flex mt-2 text-[#e2e5eb]  flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#409cb3]'>HTML</div>

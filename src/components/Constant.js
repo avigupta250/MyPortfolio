@@ -5,6 +5,7 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 import { TbGoGame } from "react-icons/tb";
 import { GiCat } from "react-icons/gi";
 import foodDelivery from "../assets/FoodDelivery.jpeg";
+import edunova from "../assets/Screenshot 2024-05-09 222549.png"
 
 
 
@@ -32,21 +33,24 @@ export const socialMedia = [
   export  const projects = [
     {
       id: 1,
-      image: foodDelivery,
-      state:"Under Maintainance",
-      title: "HeistINN-Heist Food Online",
+      image: edunova,
+      state:"",
+      title: "StudyNotion-An EdTech Platform",
+      link:"https://edunova-frontend.vercel.app/",
       description:
         "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
     },
     
       
-    // {
-    //   id: 1,
-    //   image: foodDelivery,
-    //   title: "HeistINN-Heist Food Online",
-    //   description:
-    //     "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
-    // },
+    {
+      id: 1,
+      image: foodDelivery,
+      state:"Under Maintainance",
+      title: "HeistINN-Heist Food Online",
+      linl:"",
+      description:
+        "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
+    },
     // {
     //   id: 1,
     //   image: foodDelivery,

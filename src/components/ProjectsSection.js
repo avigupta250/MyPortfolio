@@ -16,11 +16,12 @@ const ProjectsSection = () => {
       <div className=" md:flex gap-4 md:justify-between md:items-center">
         <div className="mt-8 gap-3 grid grid-cols-1 md:grid-cols-3 md:overflow-x-hidden">
           {projects.map((project) => (
+            <a href={project.link} target="_blank">
             <div className="w-full rounded-md border-3 text-white border border-[#526980] bg-[#14213f  ]">
               <div className="relative justify-end">
                 <img
                   className="h-[200px] rounded-md  w-full object-cover "
-                  src={foodDelivery}
+                  src={project.image}
                   alt="Food Delivery"
                 />
                 <div className="absolute text-black top-0 font-bold  text-[8px] ml-2 flex md:text-[15px]"> {project.state}</div>
@@ -32,6 +33,7 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
+            </a>
           ))}
         </div>
 
