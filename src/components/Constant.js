@@ -5,7 +5,7 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 import { TbGoGame } from "react-icons/tb";
 import { GiCat } from "react-icons/gi";
 import foodDelivery from "../assets/FoodDelivery.jpeg";
-import edunova from "../assets/Screenshot 2024-05-09 222549.png"
+import edunova from "../assets/Screenshot 2024-06-14 142257.png"
 
 
 
