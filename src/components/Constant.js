@@ -36,7 +36,7 @@ export const socialMedia = [
       image: edunova,
       state:"",
       title: "EduNova-An EdTech Platform",
-      link:"https://edunova-edtech.vercel.app/",
+      link:"https://edunova-frontend.vercel.app/",
       description:
         "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
     },
