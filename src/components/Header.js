@@ -2,55 +2,51 @@ import React, { useState } from "react";
 import { FaBars, FaHome, FaTimes } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
-import { MdConnectWithoutContact } from "react-icons/md";
-import { useRef } from "react";
-
 
 
 import { socialMedia } from "./Constant";
-import userEvent from "@testing-library/user-event";
 
-const Header = () => {
+
+const Header = ({homeRef,projectsRef,skillsRef,contactRef}) => {
   const [nav, setNav] = useState(false);
 
-  // const mySkills=useRef(null)
-  // const myProject=useRef(null)
-  // const mySkills=useRef(null)
-const scrollToSection = (elementRef) => {
-  if (elementRef.current) {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  }
-};
+
   const links = [
     {
       id: 1,
       link: "Home",
-      ref:"mySkills",
+      ref: homeRef,
       icon: <FaHome />,
     },
     {
       id: 2,
       link: "My Skills",
-      ref:"mySkills",
+      ref: skillsRef,
       icon: <GiSkills />,
     },
     {
       id: 3,
       link: "Project",
-      ref:"mySkills",
+      ref: projectsRef,
       icon: <LiaProjectDiagramSolid />,
     },
     {
       id: 4,
       link: "Contact",
-      ref:"mySkills",
+      ref: contactRef,
       icon: <MdConnectWithoutContact />,
     },
   ];
 
+  const handleScroll = (sectionRef) => {
+    if (sectionRef?.current) {
+      sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.error("Ref is not attached to any DOM element");
+    }
+  };
+
+  
 
 
   
@@ -70,7 +66,7 @@ const scrollToSection = (elementRef) => {
           {links.map(({ id, link,ref }) => (
             <li
               key={id}
-              onClick={()=>scrollToSection(ref)}
+             onClick={()=>handleScroll(ref)}
               className="hover:text-[#4ade80] font-quickstand hover:scale-110 duration-200 px-4 text-[16px] text-gray-400 cursor-pointer"
             >
               {link}
@@ -105,12 +101,15 @@ const scrollToSection = (elementRef) => {
         <ul
           className="flex flex-col justify-center w-full h-screen fixed top-0 items-start z-10 bg-[#0E1630] "
         >
-          {links.map(({ id, link, icon }) => (
-            <li
+          {links.map(({ id, link, icon,ref }) => (
+            <li onClick={()=>{
+              setNav(false)
+              handleScroll(ref)
+            }}
               key={id}
               className="flex items-center gap-4 py-8 ml-[90px] text-gray-400 cursor-pointer"
             >
-              <div className="text-green-400">{icon}</div> {link}
+              <div  className="text-green-400">{icon}</div> {link}
             </li>
           ))}
         </ul>
