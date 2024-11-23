@@ -1,10 +1,10 @@
 import React from 'react'
-import { useRef } from 'react';
+
 
 const SkillSection = () => {
-    const  mySkills=useRef(null);
+    
   return (
-    <div ref={mySkills} className='mySkills text-white  px-4 md:px-[200px] md:mt-[100px]'>
+    <div  className='mySkills text-white  px-4 md:px-[200px] md:mt-[100px]'>
       
         <div className="text-[#4ade80] md:text-[30px]  flex  items-center gap-3">  <div className="h-[1px] w-7 bg-[#4ade80]"></div>My Skills</div>
         <div className='w-full h-1 bg-blue-600'></div>

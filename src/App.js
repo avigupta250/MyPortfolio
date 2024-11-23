@@ -18,16 +18,16 @@ function App() {
       <Header homeRef={homeRef} skillsRef={skillsRef} projectsRef={projectsRef} contactRef={contactRef} />
 
       {/* Sections */}
-      <div ref={homeRef}>
+      <div ref={homeRef} className="scroll-mt-[160px]">
         <HeroSection />
       </div>
-      <div ref={skillsRef}>
+      <div ref={skillsRef} className="scroll-mt-[90px]">
         <SkillSection />
       </div>
-      <div ref={projectsRef}>
+      <div ref={projectsRef} className="scroll-mt-[90px]">
         <ProjectsSection />
       </div>
-      <div ref={contactRef}>
+      <div ref={contactRef} className="scroll-mt-[90px]">
         
       <Footer />
       </div>
