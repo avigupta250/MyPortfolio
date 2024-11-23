@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaBars, FaHome, FaTimes } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { MdConnectWithoutContact } from "react-icons/md";
+import { useRef } from "react";
+import SkillSection from "./SkillSection";
 
 
 import { socialMedia } from "./Constant";
