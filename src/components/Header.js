@@ -3,8 +3,6 @@ import { FaBars, FaHome, FaTimes } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { MdConnectWithoutContact } from "react-icons/md";
-import { useRef } from "react";
-import SkillSection from "./SkillSection";
 
 
 import { socialMedia } from "./Constant";
@@ -83,7 +81,7 @@ const Header = ({homeRef,projectsRef,skillsRef,contactRef}) => {
         {/* social media */}
         <div className="h-[6px] text-white flex gap-5 items-center mt-2 ml-2">
           {socialMedia.map(({ id, icon, link }) => (
-            <a href={link} key={id} target="_blank">
+            <a href={link} key={id} rel="noreferrer" target="_blank">
               <div className="hover:text-[#4ade80] duration-200 text-[20px] hover:scale-150">
                 {" "}
                 {icon}

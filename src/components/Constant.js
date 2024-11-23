@@ -1,4 +1,4 @@
-import { FaBars, FaGithub, FaHome, FaTimes } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { TiWeatherPartlySunny } from "react-icons/ti";
