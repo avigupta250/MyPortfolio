@@ -56,7 +56,7 @@ const Footer = () => {
         
           <div className="h-[6px] py-6 text-white flex gap-5 mt-1  ">
             {socialMedia.map(({ id, icon,link }) => (
-              <a href={link} target="_blank">
+              <a href={link} key={id} target="_blank">
               <div key={id} className="hover:text-green-600 duration-200 text-[26px]   hover:scale-110">
                 {" "}
                 {icon}

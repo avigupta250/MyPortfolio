@@ -6,6 +6,7 @@ import { TbGoGame } from "react-icons/tb";
 import { GiCat } from "react-icons/gi";
 import foodDelivery from "../assets/FoodDelivery.jpeg";
 import edunova from "../assets/Screenshot 2024-06-14 142257.png"
+import Brainly from "../assets/Brainly.png"
 
 
 
@@ -25,7 +26,7 @@ export const socialMedia = [
     {
       id: 3,
       icon: <FaXTwitter />,
-      link:"https://twitter.com/Avinash87812308"
+      link:"https://twitter.com/dev_buoy"
     },
   ];
 
@@ -40,17 +41,27 @@ export const socialMedia = [
       description:
         "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
     },
+    {
+      id:3 ,
+      image: Brainly,
+      state:"",
+      title: "Brainly- A Second Brain App",
+      link:"https://brainly-100xdevs.vercel.app/",
+      description:
+        " ReactJs,Tailwind CSS , Recoil, NodeJs,JWT Authentication, ExpressJs, MongoDb"
+    },
     
       
     {
-      id: 1,
+      id: 2,
       image: foodDelivery,
       state:"Under Maintainance",
       title: "HeistINN-Heist Food Online",
-      linl:"",
+      link:"",
       description:
         "HTML, CSS, Tailwind, ReactJs, Redux-toolkit, NodeJs, Authentication, ExpressJs, MongoDb, Razorpay Payment Integration",
     },
+   
     // {
     //   id: 1,
     //   image: foodDelivery,

@@ -15,8 +15,8 @@ const ProjectsSection = () => {
       <div className="h-1  bg-blue-600"></div>
       <div className=" md:flex gap-4 md:justify-between md:items-center">
         <div className="mt-8 gap-3 grid grid-cols-1 md:grid-cols-3 md:overflow-x-hidden">
-          {projects.map((project) => (
-            <a href={project.link} target="_blank">
+          {projects.map((project,index) => (
+            <div key={index}><a href={project.link} target="_blank">
             <div className="w-full rounded-md border-3 text-white border border-[#526980] bg-[#14213f  ]">
               <div className="relative justify-end">
                 <img
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
-            </a>
+            </a></div>
           ))}
         </div>
 
@@ -44,8 +44,9 @@ const ProjectsSection = () => {
           </div>
           <div className="h-1 w-full bg-blue-600 rounded-md mt-2 "></div>
           <div className="mt-3 flex flex-col  gap-4">
-            {moreProjects.map((project) => (
-              <a href={project?.link} target="_blank">
+            {moreProjects.map((project,index) => (
+              <div key={index}>
+                <a href={project?.link} rel="noreferer" target="_blank">
                 <div className="flex p-3 gap-4 justify-between items-center md:hover:scale-105 duration-300 opacity-80 bg-blur-lg  ">
                   <div className="flex items-center gap-4">
                     <div className=" scale-150 text-[#4ade80] ">
@@ -61,6 +62,7 @@ const ProjectsSection = () => {
                   </button>
                 </div>
               </a>
+              </div>
             ))}
           </div>
         </div>

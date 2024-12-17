@@ -12,11 +12,11 @@ const SkillSection = () => {
             <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Languages</div>
                 <div className='flex mt-2 text-[#e2e5eb]  flex-wrap gap-2'>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#409cb3]'>C</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#409cb3]'>C</div> */}
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-blue-700'>C++</div>
                     {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#5ed76491]'></div> */}
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#b73d3d]'>Javascript</div>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#e58d4d]'>Python</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#e58d4d]'>Python</div> */}
                 </div>
 
             </div>
@@ -41,9 +41,12 @@ const SkillSection = () => {
 
             </div>
             <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
-                <div>DataBase</div>
+                <div>DataBase and ORM</div>
                 <div className='flex mt-2 flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Mongo DB</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#ed49d5]'>PostgreSQL</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#9aa330]'>Mongoose</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#dc8b45]'>Prisma</div>
                    
                 </div>
 
@@ -54,7 +57,7 @@ const SkillSection = () => {
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Git</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#8940b3]'>GitHub</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#886060]'>VS Code</div>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#40b34d]'>Docker</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#40b34d]'>Docker</div> */}
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#bd141478]'>Postman</div>
                 
                 </div>
