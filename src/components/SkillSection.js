@@ -43,7 +43,7 @@ const SkillSection = () => {
             <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>DataBase and ORM</div>
                 <div className='flex mt-2 flex-wrap gap-2'>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Mongo DB</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>MongoDB</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#ed49d5]'>PostgreSQL</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#9aa330]'>Mongoose</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#dc8b45]'>Prisma</div>
