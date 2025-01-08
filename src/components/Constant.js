@@ -26,6 +26,7 @@ export const socialMedia = [
     {
       id: 3,
       icon: <FaXTwitter />,
+      
       link:"https://twitter.com/dev_buoy"
     },
   ];
