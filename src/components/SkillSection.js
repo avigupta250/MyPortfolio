@@ -8,6 +8,12 @@ const SkillSection = () => {
       
         <div className="text-[#4ade80] md:text-[30px]  flex  items-center gap-3">  <div className="h-[1px] w-7 bg-[#4ade80]"></div>My Skills</div>
         <div className='w-full h-1 bg-blue-600'></div>
+        {/* <div>
+        <iframe src="https://leetcode-stats-six.vercel.app/?username=AviGupta" frameborder="0"></iframe>
+        [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=KnlnKS)](https://github.com/KnlnKS/leetcode-stats)
+
+
+        </div> */}
         <div className='mt-8 gap-5 grid grid-cols-1  md:grid-cols-4'>
             <div className='w-full p-3 md:hover:scale-110 duration-300 rounded-md bg-[#14213f] '>
                 <div>Languages</div>

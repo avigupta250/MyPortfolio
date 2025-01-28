@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillSection from "./components/SkillSection";
+import Leetcode from "./components/Leetcode"
 import { useRef } from "react";
 function App() {
   // Define refs for each section
@@ -22,6 +23,7 @@ function App() {
         <HeroSection />
       </div>
       <div ref={skillsRef} className="scroll-mt-[90px]">
+      
         <SkillSection />
       </div>
       <div ref={projectsRef} className="scroll-mt-[90px]">
