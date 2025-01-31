@@ -35,6 +35,7 @@ const SkillSection = () => {
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#5ed76491]'>Tailwind</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#b73d3d]'>Javascript</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#a9b340]'>React Js</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#cb659b]'>Next Js</div>
                 </div>
 
             </div>
