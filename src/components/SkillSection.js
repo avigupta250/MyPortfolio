@@ -43,6 +43,7 @@ const SkillSection = () => {
                 <div className='flex mt-2 flex-wrap gap-2'>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#409cb3]'>Express Js</div>
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border border-blue-700'>Node Js</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border border-[#dc8b45]'>Websocket</div>
                   
                 </div>
 
