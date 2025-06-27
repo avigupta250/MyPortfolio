@@ -125,7 +125,7 @@ const Footer = () => {
       
     </div>
     <div className="flex mt-[40px] text-[10px] md:text-[20px] justify-center pb-[20px]  items-center gap-2 text-[#8390b9de] ">
-            <AiOutlineCopyright/><h1>Copyright 2023 - Developed by Avi Gupta .All right reserved.</h1>
+            <AiOutlineCopyright/><h1>Copyright 2023 - Developed by Avi Gupta.All right reserved.</h1>
           </div>
     </>
   );

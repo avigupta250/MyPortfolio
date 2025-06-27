@@ -36,7 +36,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex justify-center mt-[30px] md:justify-start ">
-          <a href="https://drive.google.com/file/d/1Qbnys77HgRJ75SrRclNnlBjV7zGzgpqu/view?usp=drivesdk" target="_blank" ><button className="btn btn-gradient-border btn-glow flex justify-center items-center ">
+          <a href="https://drive.google.com/file/d/1m6-2KRJulb_ttkGAwyLVxy3e5mxvoa1b/view?usp=sharing" target="_blank" ><button className="btn btn-gradient-border btn-glow flex justify-center items-center ">
             Resume
           </button>
           </a>

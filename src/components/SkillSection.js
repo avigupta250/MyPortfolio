@@ -22,8 +22,8 @@ const SkillSection = () => {
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-blue-700'>C++</div>
                     {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#5ed76491]'>Python</div> */}
                     <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#b73d3d]'>Javascript</div>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#e58d4d]'>TypeScript</div>
-                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#3ba245]'>Java</div>
+                    {/* <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#e58d4d]'>TypeScript</div>
+                    <div className='rounded-md bg-[#04060c] text-xs p-2 border hover:scale-105 duration-200 border-[#3ba245]'>Java</div> */}
                 </div>
 
             </div>
